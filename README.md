@@ -5,7 +5,7 @@ In the project directory, you can run:
 
 ### `yarn`
 
-This installs all app dependencies.\
+This installs all app dependencies.
 
 ### `yarn start`
 
