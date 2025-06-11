@@ -1,0 +1,14 @@
+{
+  "buildCommand": "yarn build",
+  "devCommand": "yarn start",
+  "installCommand": "yarn install",
+  "framework": "create-react-app",
+  "outputDirectory": "build",
+  "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/",
+      "status": 200
+    }
+  ]
+} 

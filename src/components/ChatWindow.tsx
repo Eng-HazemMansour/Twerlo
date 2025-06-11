@@ -641,11 +641,17 @@ const ChatWindow: React.FC = () => {
                             bgcolor: 'rgba(0, 0, 0, 0.5)',
                             opacity: 0,
                             transition: 'opacity 0.2s',
+                            width: '24px',
+                            height: '24px',
+                            borderRadius: '50%',
+                            padding: '4px',
+                            minWidth: '24px',
                             '&:hover': {
                               bgcolor: 'rgba(0, 0, 0, 0.7)',
                             },
                             '& .MuiSvgIcon-root': {
                               color: 'white',
+                              fontSize: '16px',
                             },
                           }}
                         >
